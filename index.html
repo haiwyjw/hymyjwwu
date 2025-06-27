@@ -445,12 +445,7 @@
         galleries.forEach((gallery) => {
           gallery.classList.remove("active");
         });
-        const activeGallery = document.getElementById(galleryId);
-        if (activeGallery) {
-          activeGallery.classList.add("active");
-        }
       }
-
       document.addEventListener("DOMContentLoaded", () => {
         showGallery("trejo");
       });
